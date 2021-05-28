@@ -1,27 +1,195 @@
-.wrapper {
+    /* body {
+     font-family: 'Open Sans', sans-serif;
+ }
+ 
+ .wrapper {
+     max-width: 1800px;
+     margin-left: auto;
+     margin-right: auto;
+     background: #d5d5d5;
+ }
+ 
+ h1 {
+     font-size: 80px;
+     margin-left: 1em;
+ }
+ 
+ h2 {
+     color: gray;
+     margin-left: 2em;
+     font-size: 50px;
+ }
+ 
+ #skyline {
+     height: 16em;
+     width: 28em;
+     margin-right: 2em;
+     margin-left: 6em;
+     margin-bottom: 36em;
+ }
+ 
+ #cn-tower {
+     height: 52em;
+     width: 30em;
+ }
+ 
+ #rogers-center {
+     height: 16em;
+     width: 28em;
+     margin-left: 2em;
+     margin-bottom: 36em;
+ }
+ 
+ #old-hall {
+     height: 56em;
+     width: 29em;
+     margin-top: 1em;
+     margin-left: 5em;
+     bottom: 50px;
+ }
+ 
+ #rom {
+     height: 15em;
+     width: 30em;
+     margin-left: 2em;
+     margin-bottom: 40em;
+ }
+ 
+ #new-hall {
+     height: 56em;
+     width: 29em;
+     margin-left: 7em;
+ }*/
+    /*.wrapper {
     max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     background: #d5d5d5;
-}
-
-h1 {
-    color: #000000;
-    padding-left: 25px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-h2 {
-    color: gray;
-    padding-left: 25px;
-}
-
-.small-imgs {
-    height: 380px;
-    width: 500px;
-}
-
-.big-imgs {
-    height: 700px;
-    width: 350px;
-}
+}*/
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    h1 {
+        font-size: 48px;
+        margin-left: 1em;
+        padding-top: 1em;
+    }
+    
+    h2 {
+        color: gray;
+        margin-left: 2em;
+        font-size: 35px;
+    }
+    
+    .overlay {
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        right: 0;
+        background-color: #008CBA;
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    
+    .wrapper {
+        position: static;
+        max-width: 1100px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #d5d5d5;
+    }
+    
+    .grid-container {
+        position: relative;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 20px;
+    }
+    
+    .grid-item {
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .repeating-linear {
+        background: repeating-linear-gradient(to bottom right, transparent, transparent 10%, green 10%, green 20%);
+    }
+    
+    .container:hover .overlay {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    
+    img {
+        bottom: 0;
+        height: 100%;
+    }
+    
+    #skyline {
+        height: 200px;
+        width: 250px;
+        /* background: linear-gradient(45deg, lightgreen, darkgreen 33%);*/
+        /*background: linear-gradient(135deg, transparent, whitesmoke 25%, rgb( 128, 128, 128) 40%);*/
+    }
+    
+    #cn-tower {
+        width: 250px;
+        height: 400px;
+    }
+    
+    #rogers-center {
+        height: 200px;
+        width: 250px;
+    }
+    
+    #old-hall {
+        width: 250px;
+        height: 400px;
+    }
+    
+    #rom {
+        height: 200px;
+        width: 250px;
+    }
+    
+    #new-hall {
+        width: 250px;
+        height: 400px;
+    }
+    
+    #blTweet {
+        height: 35px;
+        width: 35px;
+    }
+    
+    #fbLogo {
+        height: 25px;
+        width: 25px;
+    }
+    
+    #linkedInLogo {
+        height: 25px;
+        width: 25px;
+    }
+    
+    #instaLogo {
+        height: 25px;
+        width: 25px;
+    }

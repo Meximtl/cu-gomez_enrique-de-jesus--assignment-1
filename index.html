@@ -3,32 +3,69 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Assignment 1</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon-32x32.png">
     <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    </style>
 </head>
 
 <body>
 
     <div class="wrapper">
         <header>
-            <h1>The city of the <b>Toronto</b></h1>
-            <h2>Historical sites and more</h2>
+            <h1>The City of <b>Toronto</b></h1>
+            <h2>Historical sites & <b>more</b></h2>
         </header>
 
-        <img src="imgs/city-skyline.jpg" class="small-imgs" alt="The Skyline of the city of Toronto.">
-        <img src="imgs/cn-tower.jpg" class="big-imgs" alt="The CN Tower on Bremner boulevard.">
-        <img src="imgs/rogers-center.jpg" class="small-imgs" alt="Toronto's Roger Center's view from the sky">
+
+        <!--
+        <img src="imgs/city-skyline.jpg" id="skyline" alt="The Skyline of the city of Toronto.">
+        <img src="imgs/cn-tower.jpg" id="cn-tower" alt="The CN Tower on Bremner boulevard.">
+        <img src="imgs/rogers-center.jpg" id="rogers-center" alt="Toronto's Roger Center's view from the sky">
         <br>
-        <img src="imgs/old-city-hall.jpg" class="big-imgs" alt="Toronto's old city hall on Queen street.">
-        <img src="imgs/rom.jpg" class="small-imgs" alt="Picture of the Royal Ontario Museum of Natural History.">
-        <img src="imgs/new-city-hall.jpg" class="big-imgs" alt="Toronto's new city hall located on Queen street. It was ignaugurated in 1965.">
+        <img src="imgs/old-city-hall.jpg" id="old-hall" alt="Toronto's old city hall on Queen street.">
+        <img src="imgs/rom.jpg" id="rom" alt="Picture of the Royal Ontario Museum of Natural History.">
+        <img src="imgs/new-city-hall.jpg" id="new-hall" alt="Toronto's new city hall located on Queen street. It was ignaugurated in 1965.">
     </div>
-    <!--<script src="" async defer></script>-->
+    <script src="" async defer></script>
+<div class="text">
+                        <p>Hello, mundo!</p>
+                    </div>-->
+
+        <div class="grid-container">
+
+            <div class="grid-item"><img src="imgs/city-skyline.jpg" id="skyline" alt="The Skyline of the city of Toronto.">
+                <div class="overlay">
+                    <div class="text">Hello World</div>
+                </div> <br><br>
+                <img src="imgs/old-city-hall.jpg" id="old-hall" alt="Toronto's old city hall on Queen street.">
+                <div class="overlay">
+                    <div class="text">Hello World</div>
+                </div>
+            </div>
+
+            <div class="grid-item"><img src="imgs/cn-tower.jpg" id="cn-tower" alt="The CN Tower on Bremner boulevard."> <br><br>
+                <img src="imgs/rom.jpg" id="rom" alt="Picture of the Royal Ontario Museum of Natural History.">
+            </div>
+
+            <div class="grid-item"><img src="imgs/rogers-center.jpg" id="rogers-center" alt="Toronto's Roger Center's view from the sky"> <br><br>
+                <img src="imgs/new-city-hall.jpg" id="new-hall" alt="Toronto's new city hall located on Queen street. It was ignaugurated in 1965.">
+            </div>
+
+            <div class="grid-item">
+                <nav>
+                    <a href="https://twitter.com/"><img id="blTweet" src="logos/blTweet1.png" alt="Twitter's logo as a link to Twitter's homepage."></a>
+                    <a href="https://www.facebook.com/"><img id="fbLogo" src="logos/fbLogo.png" alt="Facebook's logo as a link to Facebook's homepage."></a>
+                    <a href="https://www.linkedin.com/"><img id="linkedInLogo" src="logos/inLogo.png" alt="Facebook's logo as a link to Facebook's homepage."></a>
+                    <a href="https://www.instagram.com/"><img id="instaLogo" src="logos/gramLogo.png" alt="Facebook's logo as a link to Facebook's homepage."></a>
+                </nav>
+            </div>
+
+        </div>
+
 </body>
 
 </html>
